@@ -74,7 +74,7 @@ body{
      color       : white;
      text-align  : center;
      text-decoration : none;
-     padding-top     : none;
+     padding-top     : 12px;
 }
 
 /*============= Main =============*/
@@ -152,13 +152,13 @@ a.info-box{
 
 img.info-box-weather-icon{
      height : 30px;
-     width  : 30px !important;
+     width  : 30px ;
      margin : 10px;
-     float  :left;
-    background:rgba(255, 255, 255, .8);
+     float  :left;    
 }
 
 h1.info-box-weather-icon{
+    background-color: rgba(255, 255, 255, .8) ;
      font-size  : 65px;
      font-weight: 200;
      padding    : 0;
